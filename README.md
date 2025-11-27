@@ -11,7 +11,7 @@ The goal is to demonstrate how open-weights models (Mistral-7B) can be compromis
 
 #### Modules
 
-### 1. [Baseline Analysis & Defense](./1.ipynb)
+#### 1. [Baseline Analysis & Defense](./1.ipynb)
 *   **Objective:** Establish baseline safety behaviors and test manual jailbreak techniques.
 *   **Methodology:** Implemented "Persona Adoption" attacks (e.g., The Grandma Attack) to bypass safety filters.
 *   **Defense:** Engineered a **Constitution-based System Prompt** that successfully reduced the attack success rate from **66% to 0%** without fine-tuning.
